@@ -69,7 +69,7 @@
             <ol>
                 <li>Turn on your web server application (XAMPP or LAMPP or Laragon, etc)</li>
                 <li>Open your Postman application</li>
-                <li>git clone or download from </li>
+                <li>git clone or download from <code>https://github.com/RonleyVinberk/roommeapi</code> </li>
                 <li>Run <pre>composer update</pre> to update your depencencies as they are specified in <code>composer.json</code> </li>
                 <li>Setting database name, database username, database password on file .env</li>
                 <li>Run <pre>php artisan migrate</pre> to create tables on database what you use</li>

@@ -15,7 +15,6 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'DashboardController@index');
 Route::get('/readme', 'ReadmeController@index');
 
 Route::group(['prefix' => 'example/api/general'], function () {
